@@ -1,10 +1,10 @@
 #include <jni.h>
-#include <string>
 #include <sys/stat.h>
 #include <sys/system_properties.h>
 #include <android/log.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <sys/socket.h>
 #include <netdb.h>
 #include <netinet/in.h>

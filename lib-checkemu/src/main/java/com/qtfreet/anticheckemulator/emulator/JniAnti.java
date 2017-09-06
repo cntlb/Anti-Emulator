@@ -6,7 +6,7 @@ package com.qtfreet.anticheckemulator.emulator;
 
 public class JniAnti {
     static {
-        System.loadLibrary("native-lib");
+        System.loadLibrary("checkemu");
     }
 
     public static native String getCpuinfo();
